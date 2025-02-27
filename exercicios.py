@@ -83,13 +83,23 @@ import math
 
 # 21: Conversor de Temperatura
 
-celsius = float(input("Insira a temperatura em celsius: "))
-fahrenheit = (celsius * 1.8) + 32
+#celsius = float(input("Insira a temperatura em celsius: "))
+#fahrenheit = (celsius * 1.8) + 32
 
-print(str(celsius ) + "O grau em celsius é igual a " 
-+str(fahrenheit ) + " grau em fahrenheit.")
+#print(str(celsius ) + "O grau em celsius é igual a " 
+#+str(fahrenheit ) + " grau em fahrenheit.")
 
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
+
+try:
+    num_01 = float(input("Digite o número: "))
+    num_02 = float(input("Digite o segundo número: "))
+    operador = input("Escolha a opção, e digite em seguida (+, -, *, /): ")
+    if operador = "+":
+        resultado = num_01 + num_02
+    
+
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
