@@ -43,15 +43,11 @@ import math
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
-raio_do_circulo = float(input("Digite o raio: "))
-area_do_circulo = math.pi * raio_do_circulo **2
+    #raio_do_circulo = float(input("Digite o raio: "))
+    #area_do_circulo = math.pi * raio_do_circulo **2
+        # area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
 
-print(f"{area_do_circulo:.2f}")
-
-#raio_do_circulo = float(input("Digite o raio: "))
-#area_do_circulo = math.pi * raio_do_circulo ** 2
-# area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
-#print(f"{area_do_circulo:.2f}")
+    #print(f"{area_do_circulo:.2f}")
 
 # #### Strings (`str`)
 
@@ -59,6 +55,14 @@ print(f"{area_do_circulo:.2f}")
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+    #data_do_usuario = input("Insira uma data: dd/mm/aaaa: ")
+    #lista_dia_mes_ano = data_do_usuario.split("/")
+
+    #print(f"O elemento 1 é o: {lista_dia_mes_ano[0]}")
+    #print(f"O elemento 2 é o: {lista_dia_mes_ano[1]}")
+    #print(f"O elemento 3 é o: {lista_dia_mes_ano[2]}")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
@@ -78,6 +82,13 @@ print(f"{area_do_circulo:.2f}")
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+
+celsius = float(input("Insira a temperatura em celsius: "))
+fahrenheit = (celsius * 1.8) + 32
+
+print(str(celsius ) + "O grau em celsius é igual a " 
++str(fahrenheit ) + " grau em fahrenheit.")
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
